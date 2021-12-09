@@ -1,0 +1,35 @@
+.advantages {
+    @extend .section;
+
+    &__box {
+        @extend .container;
+    }
+    &__hidden-title {
+        @extend .visually-hidden
+    }
+    &__title {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &__title, &__text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 270px;
+    }
+    &__wrap {
+        @extend %CenterFlex;
+        width: 270px;
+        height: 120px;
+        background-color: $secondary-bg-color;
+        margin-bottom: 30px;
+        border-radius: 6px;
+    }
+
+}

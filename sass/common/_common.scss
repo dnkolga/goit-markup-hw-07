@@ -1,0 +1,57 @@
+body {
+    background-color: $primary-bg-color;
+    color: $primary-text-color;
+    font-family: 'Roboto', 'sans-serif';
+    color: $primary-text-color;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.header .current {
+    color: $accent-color;
+}
+.logo {
+    color: $accent-color;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+}
+.btn {
+    border-radius: 4px;
+    border: none;
+    background-color: $accent-color;
+    color: $accent-color-white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.second-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
