@@ -55,3 +55,8 @@ body {
     border: 0;
     clip: rect(0 0 0 0)
 }
+.is-hidden {
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+}

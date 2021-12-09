@@ -5,13 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
     <title>Студия</title>
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -480,56 +473,56 @@
         Оставьте свои данные, мы вам перезвоним
       </h2>
         <form action="#" class="form">
-          <div class="form-box" role="form">
-            <ul class="forms-list">
+          <div class="form__box" role="form">
+            <ul class="form__list">
               <li>
-                <div class="form-name">
-                  <label class="client-label" for="name">Имя</label>
-                <div class="input-wrap">
-                  <input type="text" name="name" id="name" class="client-input" >
-                  <svg class="modal-name-icon"><use href="./images/icons.svg#modal-name-icon"></use></svg>
+                <div class="form__client">
+                  <label class="form__client--label" for="name">Имя</label>
+                <div class="form__input--wrap">
+                  <input type="text" name="name" id="name" class="form__input" >
+                  <svg class="form__icon" width="18px" height="18px"><use href="./images/icons.svg#modal-name-icon"></use></svg>
                 </div>
                 </div>
               </li> 
               <li>
-                <div class="form-tel">
-                  <label class="client-label" for="tel">Телефон</label>
-                  <div class="input-wrap">
-                    <input type="number" name="tel" id="tel" class="client-input client-input-tel" >
-                    <svg class="modal-tel-icon"><use href="./images/icons.svg#modal-tel-icon"></use></svg>
+                <div class="form__client">
+                  <label class="form__client--label" for="tel">Телефон</label>
+                  <div class="form__input--wrap">
+                    <input type="number" name="tel" id="tel" class="form__input" >
+                    <svg class="form__icon" width="18px" height="18px"><use href="./images/icons.svg#modal-tel-icon"></use></svg>
                 </div>
                 </div>
               </li>
               <li>
-                <div class="form-mail">
-                  <label class="client-label" for="mail">Почта</label>
-                  <div class="input-wrap">
-                    <input type="email" name="email" id="mail" class="client-input">
-                    <svg class="modal-mail-icon"><use href="./images/icons.svg#modal-mail-icon"></use></svg>
+                <div class="form__client">
+                  <label class="form__client--label" for="mail">Почта</label>
+                  <div class="form__input--wrap">
+                    <input type="email" name="email" id="mail" class="form__input">
+                    <svg class="form__icon" width="18px" height="18px"><use href="./images/icons.svg#modal-mail-icon"></use></svg>
                     </div>
                 </div>
               </li>
               <li>
-                <div class="form-comment">
-                  <label class="client-label" for="comment">Комментарий</label>
-                  <textarea name="comment" id="comment"  placeholder="Введите текст" class="client-input"></textarea>
+                <div class="form__comment">
+                  <label class="form__comment--label" for="comment">Комментарий</label>
+                  <textarea name="comment" id="comment"  placeholder="Введите текст" class="form__textarea"></textarea>
                 </div>
               </li>
             </ul>
-            <div class="checkbox-box">
-              <input type="checkbox" name="agreee" id="checkbox" class="check-input visually-hidden">
-              <label for="checkbox" class="check-label"><span class="check-span">
-                <svg class="check-icon">
+            <div class="form__check">
+              <input type="checkbox" name="agreee" id="checkbox" class="form__check--input visually-hidden">
+              <label for="checkbox" class="form__check--label"><span class="form__check--span">
+                <svg class="form__check--icon" width="11px" height="8px">
                   <use href="./images/icons.svg#check" ></use>
                 </svg>
               </span> Соглашаюсь с рассылкой и принимаю 
-                <a class="checkbox-link" href="">Условия договора</a></label>
+                <a class="form__check--link" href="">Условия договора</a></label>
             </div>
-            <button type="submit" class="btn modal-btn">Отправить</button>
+            <button type="submit" class="btn form__btn">Отправить</button>
           </div>
         </form>
-      <button class="modal-close" data-modal-close>
-        <svg class="modal-close-icon">
+      <button class="modal__close" data-modal-close>
+        <svg class="modal__close--icon" width="11px" height="11px">
           <use href="./images/icons.svg#modal-close"></use>
         </svg>
       </button>

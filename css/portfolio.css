@@ -358,6 +358,12 @@ body {
   clip: rect(0 0 0 0);
 }
 
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+
 .header {
   background-color: #FFFFFF;
   border-bottom: #ECECEC 1px solid;
