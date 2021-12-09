@@ -16,11 +16,9 @@
         height: 92px;
     }
     &__link {
-        @extend %CenterFlex;
-        display: block;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
         border: $team-icon-color solid 1px;
