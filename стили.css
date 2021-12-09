@@ -396,11 +396,11 @@ a {
 } */
 
 /* AREA */
-.area-list,
-.team-list {
-    display: flex;
-    justify-content: space-between;
-}
+/* .area-list,
+/* .team-list { */
+    /* display: flex; */
+    /* justify-content: space-between; */
+/* } */ 
 /* .area-wrap {
     position: relative;
     display: flex;
@@ -422,7 +422,7 @@ a {
 } */
 
 /* TEAM */
-.team {
+/* .team {
     background-color: var(--secondary-bg-color);
 }
 .team-item {
@@ -486,7 +486,7 @@ a {
 .team-soc-item a:focus .team-soc-icon {
     fill: var(--accent-color-white);
     
-}
+} */
 
 /* CLIENTS */
 .clients-list {
