@@ -1,11 +1,11 @@
 .backdrop {
-    // @extend .is-hidden;
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.2);
+
     transition: opacity 250ms, visibility 250ms;
 }
 
@@ -61,6 +61,7 @@
     }
     &__list {
         margin-bottom: 20px;
+        
     }
     &__input--wrap {
         position: relative;
@@ -74,6 +75,7 @@
         line-height: 1.16;
         letter-spacing: 0.01em;
         color: $secondary-text-color;
+        margin-bottom: 4px;
     }
     &__client--input {
         outline: none;
@@ -128,12 +130,19 @@
         margin-right: auto; margin-left: auto;
         margin-bottom: 30px;
 
+        &--input:checked + &--label &--span {
+            background-color: $accent-color;
+            border: none;
+            fill: $accent-color-white;
+        }
+
         &--label {
             font-size: 14px;
             line-height: 1.7;
             color: $secondary-text-color;
             display: flex;
             align-items: center;
+            cursor: pointer;
         }
         &--span {
             width: 16px;
@@ -143,11 +152,6 @@
             margin-right: 7px;
             fill: none;
             @extend %CenterFlex;
-        }
-        &--input:checked + &--span {
-            background-color: $accent-color;
-            border: none;
-            fill: $accent-color-white;
         }
         &--link {
             color: $accent-color;
