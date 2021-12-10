@@ -17,10 +17,7 @@
 
     &__nav--link,
     &__contacts--link {
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
+        @include font (14px, 500, 1.14, 00.02em);
         padding-top: 10px;
         padding-bottom: 10px;
     

@@ -31,8 +31,7 @@
             color: $secondary-text-color;
         }
         &--heading, &--text {
-            font-size: 16px;
-            line-height: 1.18;
+            @include font (16px, $fw, 1.18);
             text-align: center;
         }
     }

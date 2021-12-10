@@ -27,7 +27,6 @@
         background-color: rgba(18, 19, 23, .8);
         color: $accent-color-white;
         text-transform: uppercase;
-        font-weight: 700;
-        font-size: 14px;  
+        @include font (14px, 700);
     }
 }
