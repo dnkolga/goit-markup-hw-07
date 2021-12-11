@@ -31,7 +31,7 @@
             color: $secondary-text-color;
         }
         &--heading, &--text {
-            @include font (16px, $fw, 1.18);
+            @include font (16px, 400, 1.18);
             text-align: center;
         }
     }

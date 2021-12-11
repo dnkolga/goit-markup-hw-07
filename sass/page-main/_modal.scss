@@ -69,7 +69,7 @@
         margin-bottom: 4px;
     }
     &__client--label, &__comment--label {
-        @include font (12px, $fw, 1.16, 0.01em);
+        @include font (12px, 400, 1.16, 0.01em);
         color: $secondary-text-color;
         margin-bottom: 4px;
     }
@@ -106,7 +106,7 @@
         border-color: $accent-color;
     }
     &__textarea::placeholder {
-        @include font (12px, $fw, 1.7, 0.01em);
+        @include font (12px, 400, 1.7, 0.01em);
         color: $secondary-text-color;
         opacity: .5;
 
@@ -131,7 +131,7 @@
         }
 
         &--label {
-            @include font (14px, $fw, 1.7);
+            @include font (14px, 400, 1.7);
             color: $secondary-text-color;
             display: flex;
             align-items: center;
