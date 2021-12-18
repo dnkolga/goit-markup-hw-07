@@ -2,6 +2,8 @@
     @extend .current;
     background-color: $accent-color-white;
     border-bottom: $head-border-color 1px solid;
+    padding-top: 14px;
+    padding-bottom: 12px;
 
     &__nav--list,
     &__nav--contacts {
@@ -13,6 +15,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        // margin-bottom: 13px;
     }
 
     &__nav--link,

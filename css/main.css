@@ -376,6 +376,8 @@ body {
 .header {
   background-color: #FFFFFF;
   border-bottom: #ECECEC 1px solid;
+  padding-top: 14px;
+  padding-bottom: 12px;
 }
 .header__nav--list, .header__nav--contacts {
   display: flex;
